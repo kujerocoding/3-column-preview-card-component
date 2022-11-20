@@ -79,3 +79,21 @@ body {
     font-family: var(--PRIMARYFONT);
 }
 
+.item__btn:hover {
+    cursor: pointer;
+    color: var(--LIGHTGRAY);
+    outline: 1px solid var(--LIGHTGRAY);
+}
+
+.item__bg-sedans > button:hover {
+    background-color: var(--BRIGHTORANGE);   
+}
+
+.item__bg-suv > button:hover {
+    background-color: var(--DARKCYAN);   
+}
+
+.item__bg-luxury > button:hover {
+    background-color: var(--VERYDARKCYAN);   
+}
+
