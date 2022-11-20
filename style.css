@@ -27,6 +27,7 @@ body {
     flex-direction: column;
     justify-content:center ;
     align-items: center;
+    min-height: 100vh;
 }
 
 .main__container {
@@ -102,11 +103,16 @@ body {
     background-color: var(--VERYDARKCYAN);   
 }
 
+.attribution {
+    font-family: var(--PRIMARYFONT);
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
     .main__container {
-        width: 768px;
+        width: 600px;
         grid-template-columns: 1fr 1fr 1fr;
-        margin: 150px auto;
+        margin: 0 auto;
     }
 
     .item__bg-sedans {
@@ -118,3 +124,22 @@ body {
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .main__container {
+        width: 900px;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 0 auto;
+    }
+
+    .item__bg-sedans {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .item__bg-luxury {
+        border-radius: 0 10px 10px 0;
+    }
+
+    .item__btn {
+        margin-top: 50px;
+    }
+}
