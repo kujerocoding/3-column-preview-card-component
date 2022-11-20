@@ -19,3 +19,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: var(--LIGHTGRAY);
+    font-size: var(--FS);
+}
+
+.main__container {
+    width: 335px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 50px auto;
+}
+
+.item__container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 50px;
+    gap: 30px;
+}
+
+.item__bg-sedans {
+    background-color: var(--BRIGHTORANGE);
+    border-radius: 10px 10px 0 0;
+}
+
+.item__bg-suv {
+    background-color: var(--DARKCYAN);
+}
+
+.item__bg-luxury {
+    background-color: var(--VERYDARKCYAN);
+    border-radius: 0 0 10px 10px;
+}
+
+.item__heading {
+    font-family: var(--SECONDARYFONT);
+    text-transform: uppercase;
+    color: var(--LIGHTGRAY);
+}
+
+.item__paragraph {
+    font-family: var(--PRIMARYFONT);
+    color: var(--PARAGRAPHCOLOR);
+    line-height: 1.5rem;
+}
