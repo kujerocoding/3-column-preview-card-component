@@ -34,7 +34,8 @@ body {
     width: 335px;
     display: grid;
     /* grid-template-rows: 1fr 1fr 1fr; */
-    margin: 70px auto;
+    margin-block: 70px 0;
+    margin-inline: auto;
 }
 
 .item__container {
@@ -106,6 +107,7 @@ body {
 .attribution {
     font-family: var(--PRIMARYFONT);
     text-align: center;
+    margin-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
